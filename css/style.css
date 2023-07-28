@@ -1,0 +1,128 @@
+.section-one{
+    background-color: #202020;
+}
+.bg-images{
+    background-image: url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: top top;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    border-right: #ffffff0e 1px solid;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.boxLogin{
+    background-color: #353535ad;
+    backdrop-filter: blur(10px);
+    width: 50%;
+}
+input::placeholder{
+    color: #b5b5b552 !important;
+}
+.pass-eye{
+    position: relative;
+}
+.pass-eye i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.inboxes{
+    position: relative;
+}
+.inboxes i{
+        position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+.pass-eye .pass{
+    cursor: auto;
+    left: 10px;
+}
+.person i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+.form-control{
+    background-color: #35353500 !important;
+    color: #ffffff !important;
+}
+.form-control:focus{
+box-shadow: none !important; 
+border: solid 1px #ffffff !important;
+}
+.but-and-text{
+display: flex;
+margin-top: 20px;
+}
+.but{
+    background-color: #35353500;
+    color: #0b5ed7;
+    padding: 5px 30px;
+    border: #0b5ed7 solid 1px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.but-and-text p a{
+    text-decoration: none ;
+}
+.but-and-text p a:hover{
+    color: #0b5ed7 !important;
+    text-decoration: underline;
+}
+.but:hover{
+background-color: #0b5ed7;
+color: #353535;
+}
+.nav-log{
+    background-color: #000000a2;
+    backdrop-filter: blur(10px);
+}
+@media only screen and (max-width: 1280px){
+    .boxLogin{
+        width: 70% ;
+    }
+}
+@media only screen and (max-width: 930px){
+    .boxLogin{
+        width: 90% ;
+    }
+}
+@media only screen and (max-width: 720px){
+    .bg-images{
+        width: 100%;
+        height: 50vh;
+        border-right: none;
+        border-top: #ffffff0e 1px solid;
+    }
+}
+@media only screen and (max-width: 515px){
+    .but-and-text{
+        display: block;
+        
+    }
+    .but-and-text p{
+        margin-top: 10px;
+    }
+}
