@@ -42,25 +42,7 @@ input::placeholder{
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
 }
-.inboxes{
-    position: relative;
-}
-.inboxes i{
-        position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 10px;
-}
-.pass-eye .pass{
-    cursor: auto;
-    left: 10px;
-}
-.person i{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 10px;
-}
+
 .form-control{
     background-color: #35353500 !important;
     color: #ffffff !important;
