@@ -20,6 +20,10 @@
     min-width: 100%;
     min-height: 100%;
 }
+.top4top{
+    position: relative;
+    z-index: 999;
+}
 .boxLogin{
     background-color: #353535ad;
     backdrop-filter: blur(10px);
