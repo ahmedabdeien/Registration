@@ -1,19 +1,7 @@
 .section-one{
     background-color: #202020;
 }
-.bg-images{
-    background-image: url(../images/bg-img.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 50%;
-    height: 100vh;
-    position: absolute;
-    z-index: 0;
-    bottom:0;
-    left: 0;
-    border-right: #ffffff0e 1px solid;
-}
+
 #myVideo {
     position: fixed;
     right: 0;
@@ -91,14 +79,6 @@ color: #353535;
 @media only screen and (max-width: 930px){
     .boxLogin{
         width: 90% ;
-    }
-}
-@media only screen and (max-width: 720px){
-    .bg-images{
-        width: 100%;
-        height: 50vh;
-        border-right: none;
-        border-top: #ffffff0e 1px solid;
     }
 }
 @media only screen and (max-width: 515px){
